@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Overview
+The following project is a simple journaling website built using react and google firestore. The journaling site includes an entry box as well as displays all previous journals. An entry is sent to the database upon submission.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In order to run, begin by typing `cd journal-app` into the terminal. Afterwhich, type `npm start` into the same terminal. If these do not work, make sure to have `create-react-app` and `firestore` installed in your directory. If everything works correctly, a new window should appear in your browser.
 
-## Available Scripts
+To use the app, simply type into the text box, press submit, and your entry will be displayed in the Journal Entry section. 
 
-In the project directory, you can run:
+My purpose for doing this project was to learn how to use react, and implement a database into it. 
 
-### `npm start`
+[Software Demo Video](https://youtu.be/aRqGh-_QM28)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Web Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Main - Journal entry and submission. The journal submission includes a `textarea` and a `button`. Journal entry returns data from a firestore database.
 
-### `npm test`
+# Development Environment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- VSCode
+- Google Firestore
+- React
+- Javascript
+- HTML
+- CSS
 
-### `npm run build`
+# Useful Websites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+{Make a list of websites that you found helpful in this project}
+* [Chat GPT](https://chat.openai.com/c/5e0a0608-0f0f-4549-88c8-78055ae3898c)
+* [W3Schools](https://www.w3schools.com/REACT/react_getstarted.asp
+)
+* [React Dev](https://react.dev/learn)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Future Work
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Create option for different sortings, such as alphabetical, date, etc. 
+* Allow for pictures to be inserted into entries
+* Allow drawing into entries
